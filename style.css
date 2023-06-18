@@ -33,27 +33,31 @@ background-color: rgb(25,25,25);
   top: 50%;  
   width: 24em;
   margin: 0 auto;
-  border-right: 2px solid rgba(255,255,255,.75);
-  font-size: 180%;
-  /*font-size: 180%;*/
+  border-right: 5px solid rgba(255,255,255,.75);
+  font-size: 200%;
+  /*font-size: 200%;*/
   text-align: center;
   white-space: nowrap;
   overflow: hidden;
-  transform: translateY(-50%);    
+  transform: translateY(-25%);    
 }
 
 /* Animation */
 .anim-typewriter{
 animation: typewriter 2s steps(44) 1s 1 normal both,
-            blinkTextCursor 500ms steps(44) infinite normal;
+            blinkTextCursor 400ms steps(44) infinite normal;
            /*blinkTextCursor 500ms steps(44) infinite normal;*/
 }
+
+
 @keyframes typewriter{
 from{width: 0;}
 to{width: 24em;}
 }
+
+
 @keyframes blinkTextCursor{
-from{border-right-color: rgba(255,255,255,.75);}
+from{border-right-color: rgba(255, 255, 255, 0.75);}
 to{border-right-color: transparent;}
 }
 
@@ -71,19 +75,20 @@ font-family: 'Montserrat', sans-serif;
 .br {
 width: 520px;
 height: 80px;
-border: 3px solid white;
+border: 5px solid white;
 box-shadow: 0px 0px 0px 2px blue,inset 0px 0px 0px 2px blue, 0px 0px 20px 4px blue,inset 0px 0px 20px 4px blue;
 position: fixed;
 top: 50%; 
 left: 50%;
 margin-top: -400px;
-margin-left: -400px;
+margin-left: -270px;
 color:white;
 display: flex;
-
-
 font-size: 20px;
 }
+
+
+
 .br:before {
 z-index: -1;
 content:'';
@@ -92,12 +97,14 @@ height: 80px;
 border: 3px solid white;
 box-shadow: 0px 0px 0px 2px limegreen,inset 0px 0px 0px 2px limegreen, 0px 0px 20px 4px limegreen,inset 0px 0px 20px 4px limegreen;
 position:absolute;
-left: -30px;
-top: -30px;
+left: -0px;
+top: -0px;
 transition: 800ms;
 animation: neon 14s infinite;
 /*animation: neon 4s infinite;*/
 }
+
+
 @keyframes neon {
 0% {
    box-shadow: 0px 0px 0px 2px limegreen,inset 0px 0px 0px 2px limegreen, 0px 0px 20px 4px limegreen,inset 0px 0px 20px 4px limegreen;
@@ -228,6 +235,9 @@ animation-delay: 17s;
 -ms-animation-delay: 18s;
 animation-delay: 18s;
 }
+
+
+
 .sp-globe {
 position: absolute;
 width: 282px;
@@ -235,7 +245,8 @@ height: 273px;
 left: 50%;
 top: 50%;
 margin: -137px 0 0 -141px;
-background: transparent url(http://web-sonick.zz.mu/images/sl/globe.png) no-repeat top left;
+/*background: transparent url(https://proprikol.ru/wp-content/uploads/2020/12/kartinki-ryabchiki-28.jpg) no-repeat top left;
+*/
 -webkit-animation: fadeInBack 3.6s linear 14s backwards;
 -moz-animation: fadeInBack 3.6s linear 14s backwards;
 -ms-animation: fadeInBack 3.6s linear 14s backwards;
@@ -249,17 +260,21 @@ opacity: 0.3;
 -ms-transform: scale(5);
 transform: scale(5);
 }
+
+
+
+
 .sp-circle-link {
 position: absolute;
 left: 50%;
-bottom: 100px;
+bottom: 300px;
 margin-left: -50px;
 text-align: center;
 line-height: 100px;
 width: 100px;
 height: 100px;
-background: #fff;
-color: #3f1616;
+background: #0d30a1;
+color: #b62a2a;
 font-size: 16px;
 -webkit-border-radius: 50%;
 -moz-border-radius: 50%;
@@ -274,10 +289,11 @@ animation: fadeInRotate 1s linear 16s backwards;
 -o-transform: scale(1) rotate(0deg);
 -ms-transform: scale(1) rotate(0deg);
 transform: scale(1) rotate(0deg);
-
 }
+
+
 .sp-circle-link:hover {
-background: #b40f17;
+background: rgb(62, 219, 48);
 color: #fff;
 }
 /**/
@@ -299,6 +315,9 @@ color: #fff;
   -webkit-transform: scale(0);
 }
 }
+
+
+
 @-webkit-keyframes blurFadeIn {
 0% {
   opacity: 0;
@@ -316,6 +335,8 @@ color: #fff;
   -webkit-transform: scale(1);
 }
 }
+
+
 @-webkit-keyframes fadeInBack {
 0% {
   opacity: 0;
@@ -330,6 +351,9 @@ color: #fff;
   -webkit-transform: scale(5);
 }
 }
+
+
+
 @-webkit-keyframes fadeInRotate {
 0% {
   opacity: 0;
@@ -359,6 +383,8 @@ color: #fff;
   -moz-transform: scale(0);
 }
 }
+
+
 @-moz-keyframes blurFadeIn {
 0% {
   opacity: 0;
@@ -371,6 +397,9 @@ color: #fff;
   -moz-transform: scale(1);
 }
 }
+
+
+
 @-moz-keyframes fadeInBack {
 0% {
   opacity: 0;
@@ -385,6 +414,8 @@ color: #fff;
   -moz-transform: scale(5);
 }
 }
+
+
 @-moz-keyframes fadeInRotate {
 0% {
   opacity: 0;
@@ -414,6 +445,8 @@ color: #fff;
   transform: scale(0);
 }
 }
+
+
 @keyframes blurFadeIn {
 0% {
   opacity: 0;
@@ -431,6 +464,8 @@ color: #fff;
   transform: scale(1);
 }
 }
+
+
 @keyframes fadeInBack {
 0% {
   opacity: 0;
@@ -445,10 +480,12 @@ color: #fff;
   transform: scale(5);
 }
 }
+
+/* появление кнопки */
 @keyframes fadeInRotate {
 0% {
   opacity: 0;
-  transform: scale(0) rotate(360deg);
+  transform: scale(0) rotate(0deg);
 }
 100% {
   opacity: 1;
