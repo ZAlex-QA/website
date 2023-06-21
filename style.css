@@ -245,7 +245,7 @@ height: 197px;
 left: 52%;
 top: 35%;
 margin: -137px 0 0 -141px;
-background: transparent url(https://proprikol.ru/wp-content/uploads/2020/12/kartinki-ryabchiki-28.jpg) no-repeat top left;
+background: transparent url (https://proprikol.ru/wp-content/uploads/2020/12/kartinki-ryabchiki-28.jpg) no-repeat top left;
 
 -webkit-animation: fadeInBack 3.6s linear 14s backwards;
 -moz-animation: fadeInBack 3.6s linear 14s backwards;
@@ -276,7 +276,7 @@ line-height: 100px;
 width: 100px;
 height: 100px;
 background: #0d30a1;
-color: #b62a2a;
+color: #fff;
 font-size: 16px;
 -webkit-border-radius: 50%;
 -moz-border-radius: 50%;
@@ -295,7 +295,7 @@ transform: scale(1) rotate(0deg);
 
 
 .sp-circle-link:hover {
-background: rgb(62, 219, 48);
+background: rgb(50, 205, 50);
 color: #fff;
 }
 /**/
