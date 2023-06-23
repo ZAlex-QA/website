@@ -246,20 +246,18 @@ left: 52%;
 top: 35%;
 margin: -137px 0 0 -141px;
 background: transparent url (https://proprikol.ru/wp-content/uploads/2020/12/kartinki-ryabchiki-28.jpg) no-repeat top left;
-
--webkit-animation: fadeInBack 3.6s linear 14s backwards;
--moz-animation: fadeInBack 3.6s linear 14s backwards;
--ms-animation: fadeInBack 3.6s linear 14s backwards;
-animation: fadeInBack 3.6s linear 14s backwards;
--ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=30)";
+-webkit-animation:fadeInBack 3.6s linear 14s backwards;
+-moz-animation:fadeInBack 3.6s linear 14s backwards;
+-ms-animation:fadeInBack 3.6s linear 14s backwards;
+animation:fadeInBack 3.6s linear 14s backwards;
+-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=30)";
 /*filter: alpha(opacity=30);
 */
 opacity: 1;
-/*-webkit-transform: scale(0.1);
+-webkit-transform: scale(0.1);
 -moz-transform: scale(0.3);
 -o-transform: scale(0.5);
 -ms-transform: scale(0.7);
-*/
 transform: scale(1);
 }
 
